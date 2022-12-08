@@ -1,0 +1,22 @@
+{
+  "name": "emmasdale-render-production",
+  "version": "1.0.0",
+  "description": "- Emmasdale Sda Church is a MERN FullStack app that helps leaders disseminate important information(upcoming events, latest happenings, program guides, lessons etc) to its members.",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install  && cd ../client && npm install --legacy-peer-deps && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jabulani-creator/emmasdale-render-production.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jabulani-creator/emmasdale-render-production/issues"
+  },
+  "homepage": "https://github.com/jabulani-creator/emmasdale-render-production#readme"
+}
